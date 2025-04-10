@@ -1,4 +1,4 @@
-package com.mayank.ordermicroservice.config;
+package com.ojas.ordermicroservice.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;

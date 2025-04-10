@@ -1,4 +1,4 @@
-package com.mayank.ordermicroservice.dto;
+package com.ojas.ordermicroservice.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

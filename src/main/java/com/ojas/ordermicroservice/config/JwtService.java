@@ -1,4 +1,4 @@
-package com.mayank.ordermicroservice.config;
+package com.ojas.ordermicroservice.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

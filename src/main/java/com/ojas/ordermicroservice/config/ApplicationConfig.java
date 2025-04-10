@@ -1,4 +1,4 @@
-package com.mayank.ordermicroservice.config;
+package com.ojas.ordermicroservice.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

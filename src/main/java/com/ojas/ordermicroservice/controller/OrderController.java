@@ -1,11 +1,11 @@
-package com.mayank.ordermicroservice.controller;
+package com.ojas.ordermicroservice.controller;
 
-import com.mayank.ordermicroservice.config.UserService;
-import com.mayank.ordermicroservice.dto.CartItem;
-import com.mayank.ordermicroservice.dto.CustomResponse;
-import com.mayank.ordermicroservice.dto.Order;
-import com.mayank.ordermicroservice.dto.OrderItem;
-import com.mayank.ordermicroservice.service.OrderService;
+import com.ojas.ordermicroservice.config.UserService;
+import com.ojas.ordermicroservice.dto.CartItem;
+import com.ojas.ordermicroservice.dto.CustomResponse;
+import com.ojas.ordermicroservice.dto.Order;
+import com.ojas.ordermicroservice.dto.OrderItem;
+import com.ojas.ordermicroservice.service.OrderService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;

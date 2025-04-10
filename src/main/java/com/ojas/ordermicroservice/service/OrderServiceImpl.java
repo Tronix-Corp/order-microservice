@@ -1,10 +1,10 @@
-package com.mayank.ordermicroservice.service;
+package com.ojas.ordermicroservice.service;
 
-import com.mayank.ordermicroservice.dto.CartItem;
-import com.mayank.ordermicroservice.dto.Order;
-import com.mayank.ordermicroservice.dto.OrderItem;
-import com.mayank.ordermicroservice.repository.OrderItemRepository;
-import com.mayank.ordermicroservice.repository.OrderRepository;
+import com.ojas.ordermicroservice.dto.CartItem;
+import com.ojas.ordermicroservice.dto.Order;
+import com.ojas.ordermicroservice.dto.OrderItem;
+import com.ojas.ordermicroservice.repository.OrderItemRepository;
+import com.ojas.ordermicroservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

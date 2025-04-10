@@ -1,6 +1,6 @@
-package com.mayank.ordermicroservice.repository;
+package com.ojas.ordermicroservice.repository;
 
-import com.mayank.ordermicroservice.dto.Order;
+import com.ojas.ordermicroservice.dto.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

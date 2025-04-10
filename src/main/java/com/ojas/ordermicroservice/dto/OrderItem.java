@@ -1,4 +1,4 @@
-package com.mayank.ordermicroservice.dto;
+package com.ojas.ordermicroservice.dto;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
@@ -17,8 +17,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Valid
-@Table(name = "cartItems")
-public class CartItem {
+@Table(name = "orderItem")
+public class OrderItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -30,4 +30,13 @@ public class CartItem {
     @NotNull(message = "Quantity must not be null.")
     @Column(nullable = false)
     private Integer quantity;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "order_id", referencedColumnName="order_id")
+    @JsonBackReference
+    private Order order;
+    public OrderItem(String productId, Integer quantity, Order order) {
+        this.productId = productId;
+        this.quantity = quantity;
+        this.order = order;
+    }
 }

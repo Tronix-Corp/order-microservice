@@ -1,8 +1,8 @@
-package com.mayank.ordermicroservice.service;
+package com.ojas.ordermicroservice.service;
 
-import com.mayank.ordermicroservice.dto.CartItem;
-import com.mayank.ordermicroservice.dto.Order;
-import com.mayank.ordermicroservice.dto.OrderItem;
+import com.ojas.ordermicroservice.dto.CartItem;
+import com.ojas.ordermicroservice.dto.Order;
+import com.ojas.ordermicroservice.dto.OrderItem;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
